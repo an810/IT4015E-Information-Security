@@ -6,19 +6,57 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>788</width>
-    <height>523</height>
+    <width>791</width>
+    <height>521</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string>
+                QMainWindow {
+<!--                    background-color: #ecf0f1;-->
+                    background-image: url('hacker.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                QWidget {
+                    background-color: #ecf0f1;
+                }
+
+                QPushButton {
+                    background-color: #3498db;
+                    color: #ffffff;
+                    border: 1px solid #3498db;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+
+                QPushButton:hover {
+                    background-color: #2980b9;
+                }
+
+                QLabel {
+                    font-size: 20px;
+                    color: #2c3e50;
+                }
+
+                QLineEdit {
+                    padding: 8px;
+                    border: 1px solid #bdc3c7;
+                    border-radius: 5px;
+                }
+                </string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>8</y>
+      <y>10</y>
       <width>771</width>
       <height>491</height>
      </rect>
@@ -30,15 +68,15 @@
      </size>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
        <rect>
         <x>260</x>
-        <y>120</y>
-        <width>231</width>
+        <y>140</y>
+        <width>271</width>
         <height>221</height>
        </rect>
       </property>
@@ -94,11 +132,20 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>24</pointsize>
+        <pointsize>-1</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>Select Option to Encrypt or decrypt</string>
+       <string>Select option to Encrypt or Decrypt</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
       </property>
      </widget>
     </widget>
@@ -117,7 +164,7 @@
         <widget class="QLabel" name="label_2">
          <property name="font">
           <font>
-           <pointsize>16</pointsize>
+           <pointsize>-1</pointsize>
           </font>
          </property>
          <property name="text">
@@ -142,8 +189,8 @@
        <rect>
         <x>320</x>
         <y>140</y>
-        <width>100</width>
-        <height>30</height>
+        <width>131</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
@@ -153,8 +200,8 @@
      <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>430</y>
+        <x>330</x>
+        <y>440</y>
         <width>100</width>
         <height>50</height>
        </rect>
@@ -174,11 +221,14 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>24</pointsize>
+        <pointsize>-1</pointsize>
        </font>
       </property>
       <property name="text">
        <string>Encrypt an Image</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_7">
@@ -186,19 +236,19 @@
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>75</width>
-        <height>23</height>
+        <width>81</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
-       <string>back</string>
+       <string>Back</string>
       </property>
      </widget>
      <widget class="QLabel" name="lbl">
       <property name="geometry">
        <rect>
         <x>180</x>
-        <y>180</y>
+        <y>190</y>
         <width>401</width>
         <height>241</height>
        </rect>
@@ -221,7 +271,7 @@
      <widget class="QPushButton" name="pushButton_6">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>330</x>
         <y>180</y>
         <width>100</width>
         <height>50</height>
@@ -234,25 +284,28 @@
      <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>280</x>
         <y>70</y>
-        <width>181</width>
-        <height>30</height>
+        <width>201</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
+        <pointsize>-1</pointsize>
        </font>
       </property>
       <property name="text">
        <string>Choose Cipher File</string>
       </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
      </widget>
      <widget class="QWidget" name="horizontalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>190</x>
         <y>120</y>
         <width>391</width>
         <height>52</height>
@@ -263,7 +316,7 @@
         <widget class="QLabel" name="label_5">
          <property name="font">
           <font>
-           <pointsize>16</pointsize>
+           <pointsize>-1</pointsize>
           </font>
          </property>
          <property name="text">
@@ -294,11 +347,14 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>24</pointsize>
+        <pointsize>-1</pointsize>
        </font>
       </property>
       <property name="text">
        <string>Decypt an Image</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_8">
@@ -306,18 +362,18 @@
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>75</width>
-        <height>23</height>
+        <width>91</width>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
-       <string>back</string>
+       <string>Back</string>
       </property>
      </widget>
      <widget class="QLabel" name="lbl_2">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>240</y>
         <width>401</width>
         <height>241</height>

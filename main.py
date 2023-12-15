@@ -181,7 +181,7 @@ class Main_Window(QMainWindow, QWidget, ui,encrypt_page,decrypt_page):
 
     def handleBackButton(self):
         current_index = self.stackedWidget.currentIndex()
-        if current_index == 2:  # If transitioning back from decrypt page
+        if current_index == 2 or current_index == 1:  # If transitioning back from decrypt page
             self.resetPage() # Clear relevant data and UI elements for decrypt page
 
         self.stackedWidget.setCurrentIndex(0)  # Always set the current index to 0 when back button is pressed
