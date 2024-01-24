@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41e1c27f-01fc-4bb2-a704-23627f30d9dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Image-Encryption-using-AES.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AESCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/AESCipher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decrypter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Decrypter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encrypter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encrypter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cipher.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decryptedImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacker2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aes.py" beforeDir="false" afterPath="$PROJECT_DIR$/aes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resouce.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui_2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_2.ui.bak" beforeDir="false" afterPath="$PROJECT_DIR$/ui_2.ui.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_2.ui.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/ui_2.ui.bak1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +135,7 @@
       <workItem from="1705849108474" duration="1043000" />
       <workItem from="1705907865670" duration="620000" />
       <workItem from="1705912847955" duration="2280000" />
+      <workItem from="1705915968903" duration="9801000" />
     </task>
     <servers />
   </component>
@@ -161,7 +143,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InformationSecurity$main.coverage" NAME="main Coverage Results" MODIFIED="1705915735113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InformationSecurity$main.coverage" NAME="main Coverage Results" MODIFIED="1705934687400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Image_Encryption_using_AES$main.coverage" NAME="main Coverage Results" MODIFIED="1701400741476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InformationSecurity$aes.coverage" NAME="aes Coverage Results" MODIFIED="1705913035685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

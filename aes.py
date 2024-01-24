@@ -166,7 +166,7 @@ def mix_columns(state, inv=False):
 
 def key_expansion(key):
     """It makes list of RoundKeys for function AddRoundKey. All details
-    about algorithm is is in AES standart
+    about algorithm is in AES standard
 
     """
 
